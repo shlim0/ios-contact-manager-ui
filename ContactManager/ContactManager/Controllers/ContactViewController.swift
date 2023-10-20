@@ -2,7 +2,7 @@ import UIKit
 final class ContactViewController: UIViewController {
     
     @IBOutlet private weak var tableView: UITableView!
-    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet private weak var searchBar: UISearchBar!
     private var contactDTOs: [ContactDTO] = []
     private var filteredContact: [ContactDTO] = []
     
