@@ -1,6 +1,6 @@
 import UIKit
 
-class CustomTableViewCell: UITableViewCell {
+final class CustomTableViewCell: UITableViewCell {
     @IBOutlet private weak var nameAge: UILabel!
     @IBOutlet private weak var phoneNumber: UILabel!
 

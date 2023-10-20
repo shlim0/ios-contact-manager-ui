@@ -1,6 +1,5 @@
 import UIKit
 final class ContactViewController: UIViewController {
-    
     @IBOutlet private weak var tableView: UITableView!
     @IBOutlet private weak var searchBar: UISearchBar!
     private var contactDTOs: [ContactDTO] = []
