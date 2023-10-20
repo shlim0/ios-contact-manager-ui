@@ -1,8 +1,8 @@
 import UIKit
 
 class CustomTableViewCell: UITableViewCell {
-    @IBOutlet weak var nameAge: UILabel!
-    @IBOutlet weak var phoneNumber: UILabel!
+    @IBOutlet private weak var nameAge: UILabel!
+    @IBOutlet private weak var phoneNumber: UILabel!
 
     static let cellName = "CustomTableViewCell"
     static let customCellIdentifier = "customCell"
